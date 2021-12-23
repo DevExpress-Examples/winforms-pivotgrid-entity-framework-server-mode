@@ -5,7 +5,7 @@
 <!-- default badges end -->
 # PivotGridControl and Entity Framework - a Server Mode Example
 
-This example demonstrates the PivotGridControl that is bound to the Entity Framework data source and operates in Server mode.
+This example demonstrates a PivotGridControl that is bound to the Entity Framework data source and operates in server mode.
 
 ## Files to Look At
 
