@@ -3,13 +3,9 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T828608)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# PivotGridControl and Entity Framework - a Server Mode Example
+# Pivot Grid for WinForms - a Server Mode Example (Entity Framework)
 
-This example demonstrates a PivotGridControl that is bound to the Entity Framework data source and operates in server mode.
-
-## Files to Look At
-
-[Form1.cs](./CS/EntityFrameworkServerModeExample/Form1.cs) ([Form1.vb](./VB/EntityFrameworkServerModeExample/Form1.vb))
+This example demonstrates the Pivot Grid that is bound to the Entity Framework data source and operates in server mode.
 
 ## Example Overview
 
@@ -18,11 +14,15 @@ The application contains two data sources bound to the Microsoft SQL database fi
 * [EntityServerModeSource](https://docs.devexpress.com/CoreLibraries/DevExpress.Data.Linq.EntityServerModeSource)
 * [BindingSource](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.bindingsource)
 
-Toggle the button to the _Server Mode_ position to bind the PivotGridControl to the EntityServerModeSource instance.
+Toggle the button to the _Server Mode_ position to bind the Pivot Grid to the `EntityServerModeSource` instance.
 
 ![screenshot](/images/screenshot.png)
 
-> SQL queries are logged to the Output window in Visual Studio IDE, so you can see what is going on behind the scene.
+You can see the generated SQL statements in the Visual Studio Output window.
+
+## Files to Review
+
+[Form1.cs](./CS/EntityFrameworkServerModeExample/Form1.cs) ([Form1.vb](./VB/EntityFrameworkServerModeExample/Form1.vb))
 
 ## Documentation
 - [Entity Framework Documentation](https://docs.microsoft.com/ef/)
