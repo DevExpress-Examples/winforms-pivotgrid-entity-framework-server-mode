@@ -5,7 +5,8 @@
 <!-- default badges end -->
 # Pivot Grid for WinForms - a Server Mode Example (Entity Framework)
 
-This example demonstrates the Pivot Grid that is bound to the Entity Framework data source and operates in server mode.
+This example demonstrates a Pivot Grid that is bound to the Entity Framework data source and operates in server mode.
+
 
 ## Example Overview
 
